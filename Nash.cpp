@@ -122,6 +122,7 @@ void Solucion::equilibrioNash()
             {
                 temp1 = i + 1;
                 temp2 = j + 1;
+                cout << "Un punto de equilibrio de Nash es: N(" << temp1 << "," <<temp2 << ")" << endl;  
                 cout << "La mejor estrategia para el jugador 1 es la opcion " << temp1 << endl;
                 cout << "La mejor estrategia para el jugador 2 es la opcion" << temp2 << endl;
                 cout << endl;
