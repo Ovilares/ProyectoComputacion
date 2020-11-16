@@ -1,6 +1,5 @@
 /*
-Código: Teoría de juegos
-Oliver
+Proyecto Computacion unidad 1
 */
 
 #include <iostream>
@@ -61,9 +60,8 @@ void llenarMatrizMB(matriz& MB)
 {
     cout << "Ingrese los pagos del jugador 2" << endl;
     for (int i = 0; i < 2; i++) {
-        cout << "Pagos opcion " << i +1 << endl;
         for (int j = 0; j < 2; j++) {
-            cout << "Valor elemento [" << j << "][" << i << "]: ";
+            cout << "Valor elemento [" << i << "][" << j << "]: ";
             cin >> MB[i][j];
 
         }
